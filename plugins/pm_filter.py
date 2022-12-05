@@ -442,15 +442,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         chat_id=query.from_user.id,
                         file_id=file_id,
                         caption=f_caption,
-                        protect_content=True if ident == "filep" else False,
-                        reply_markup=InlineKeyboardMarkup(
-                              [
-                           [
-                            InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
-                          ]
-                        ]
-                    )
+                        protect_content=True if ident == "filep" else False
+                        
                 )   
                 else:
                     await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
@@ -488,15 +481,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption,
-            protect_content=True if ident == 'checksubp' else False,
-            reply_markup=InlineKeyboardMarkup(
-                  [
-                           [
-                            InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
-                          ]
-                        ]
-                    )
+            protect_content=True if ident == 'checksubp' else False
+            
                 )   
     elif query.data == "pages":
         await query.answer()
