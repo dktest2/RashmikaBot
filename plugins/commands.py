@@ -40,7 +40,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂', callback_data='start')
+                    InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                 ],[
+                    InlineKeyboardButton('🦋SΞΛᏒCH🦋', switch_inline_query_current_chat=''), 
+                    InlineKeyboardButton('🦋SUᎮᎮԾᏒϮ🦋', url=GRP_LNK)
+                 ],[
+                    InlineKeyboardButton('♻️𝐇𝐞𝐥𝐩♻️', callback_data='help'),
+                    InlineKeyboardButton('♻️𝐀𝐛𝐨𝐮𝐭♻️', callback_data='about')
                  ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEGmBRjhOg5skcH7YlJUtTzT9hG-3e1-AAC-AMAAp9EiVed3ajGmwsl5isE") 
@@ -83,7 +89,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂', callback_data='start')
+                    InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                 ],[
+                    InlineKeyboardButton('🦋SΞΛᏒCH🦋', switch_inline_query_current_chat=''), 
+                    InlineKeyboardButton('🦋SUᎮᎮԾᏒϮ🦋', url=GRP_LNK)
+                 ],[
+                    InlineKeyboardButton('♻️𝐇𝐞𝐥𝐩♻️', callback_data='help'),
+                    InlineKeyboardButton('♻️𝐀𝐛𝐨𝐮𝐭♻️', callback_data='about')
                  ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEGmBRjhOg5skcH7YlJUtTzT9hG-3e1-AAC-AMAAp9EiVed3ajGmwsl5isE") 
@@ -133,15 +145,8 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
-                    protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup(
-                          [
-                           [
-                            InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
-                          ]
-                        ]
-                    )
+                    protect_content=msg.get('protect', False)
+                    
                 )   
             except FloodWait as e:
                 await asyncio.sleep(e.x)
@@ -150,15 +155,8 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
-                    protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup(
-                          [
-                           [
-                            InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
-                          ]
-                        ]
-                    )
+                    protect_content=msg.get('protect', False)
+                    
                 )   
             except Exception as e:
                 logger.warning(e, exc_info=True)
@@ -219,15 +217,8 @@ async def start(client, message):
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
-                protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup(
-                      [
-                           [
-                            InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
-                          ]
-                        ]
-                    )
+                protect_content=True if pre == 'filep' else False
+                
                 )   
             filetype = msg.media
             file = getattr(msg, filetype.value)
@@ -260,15 +251,8 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup(
-                       [
-                           [
-                            InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
-                          ]
-                        ]
-                    )
+        protect_content=True if pre == 'filep' else False
+        
                 )   
                     
 
