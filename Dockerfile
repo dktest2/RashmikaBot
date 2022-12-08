@@ -6,7 +6,16 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /RashmikaBot
-WORKDIR /RashmikaBot
+RUN mkdir /DQ-The-File-Donor
+WORKDIR /DQ-The-File-Donor
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
