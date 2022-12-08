@@ -1,44 +1,20 @@
 <p align="center">
-  <img src="https://telegra.ph/file/9f1781faeab4a4a775722.jpg" alt="Rashmika Logo">
+  <img src="https://telegra.ph/file/171925d184de01b3055dc.jpg" alt="DQ-The-File-Donor Logo">
 </p>
 <h1 align="center">
-  <b>AUTOFILTER RASHMIKABOT</b>
+  <b>DQ-The-File-Donor Bot</b>
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+RashmikaBot!;Created+by+ɛӼ_ռöֆ__⁷⁷⁷✘⁴!;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+DQ-The-File-Donor!;Created+by+Jᴏᴇʟ+ᠰ+TɢX!;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
 </p>
 
-[![Stars](https://img.shields.io/github/stars/MyBotzz/RashmikaBot?style=flat-square&color=yellow)](https://github.com/MyBotzz/RashmikaBot/stargazers)
-[![Forks](https://img.shields.io/github/forks/MyBotzz/RashmikaBot?style=flat-square&color=orange)](https://github.com/MyBotzz/RashmikaBot/fork)
-[![Size](https://img.shields.io/github/repo-size/MyBotzz/RashmikaBot?style=flat-square&color=green)](https://github.com/MyBotzz/RashmikaBot/)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/MyBotzz/RashmikaBot)   
-[![Contributors](https://img.shields.io/github/contributors/MyBotzz/RashmikaBot?style=flat-square&color=green)](https://github.com/MyBotzz/RashmikaBot/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/MyBotzz/RashmikaBot/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/MyBotzz/RashmikaBot.svg)](https://stars.medv.io/MyBotzz/RashmikaBot)
-
-### Deploy
-# You can deploy this bot on MOGENIUS,HEROKU, RAILWAY,KOYEB & VPS
-[![Deploy on Mogenius](https://telegra.ph/file/d824b54bf37a407b10fb4.jpg)](https://studio.mogenius.com/studio/cloud-space/add-cloud-space)
- 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/TKLYA7)
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MyBotzz/RashmikaBot)
-
-[![Deploy to Herokubot](https://www.herokucdn.com/deploy/button.svg)](https://telegram.dog/XTZ_HerokuBot?start=Sm9lbGtiL0RRLXRoZS1maWxlLWRvbm9yIG1hc3Rlcg)
-
-<details><summary>Deploy To VPS</summary>
-<p>
-<pre>
-git clone https://github.com/MyBotzz/RashmikaBot
-# Install Packages
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
-</details>
-
-<hr>
+[![Stars](https://img.shields.io/github/stars/Joelkb/DQ-The-File-Donor?style=flat-square&color=yellow)](https://github.com/Joelkb/DQ-The-File-Donor/stargazers)
+[![Forks](https://img.shields.io/github/forks/Joelkb/DQ-The-File-Donor?style=flat-square&color=orange)](https://github.com/Joelkb/DQ-The-File-Donor/fork)
+[![Size](https://img.shields.io/github/repo-size/Joelkb/DQ-The-File-Donor?style=flat-square&color=green)](https://github.com/Joelkb/DQ-The-File-Donor/)   
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Joelkb/DQ-The-File-Donor)   
+[![Contributors](https://img.shields.io/github/contributors/Joelkb/DQ-The-File-Donor?style=flat-square&color=green)](https://github.com/Joelkb/DQ-The-File-Donor/graphs/contributors)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/Joelkb/DQ-The-File-Donor/blob/main/LICENSE)
+[![Sparkline](https://stars.medv.io/Joelkb/DQ-The-File-Donor.svg)](https://stars.medv.io/Joelkb/DQ-The-File-Donor)
 
 ## Features
 - [x] IMDB Template Set
@@ -77,7 +53,7 @@ python3 bot.py
 - [x] Auto Delete
 - [x] And More...
 
-<b>To know about all features, Join our <a href='https://telegram.me/RashmikaUpdates'>updates channel</a>.</b>
+<b>To know about all features, Join our <a href='https://telegram.me/DQ_The_File_Donor_Updates'>updates channel</a>.</b>
 
 ## Commands
 ```
@@ -130,21 +106,51 @@ python3 bot.py
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-* `HEROKU_API_KEY`: Your Heroku API Key to check dyno, bot uptime and bot working day prediction
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/MyBotzz/RashmikaBot/blob/master/info.py) for more optional variables
+* Check [info.py](https://github.com/Joelkb/DQ-The-File-Donor/blob/master/info.py) for more optional variables
 
-#### Deploy on Koyeb
 
-The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/Joelkb/DQ-the-file-donor">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
+</a>
+</p>
+</details>
+<details><summary>Deploy To Heroku Via Bot</summary>
+<p>
+<br>
+<a href="https://telegram.dog/XTZ_HerokuBot?start=Sm9lbGtiL0RRLXRoZS1maWxlLWRvbm9yIG1hc3Rlcg">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy Via Heroku Bot">
+</a>
+</p>
+</details>
+<details><summary>Deploy To Koyeb</summary>
+<b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Joelkb/DQ-The-FIle-Donor&branch=koyeb&name=dqthefiledonor)
+</details>
+<details><summary>Deploy To VPS</summary>
+<p>
+<pre>
+git clone https://github.com/Joelkb/DQ-The-File-Donor
+# Install Packages
+pip3 install -U -r requirements.txt
+Edit info.py with variables as given below then run bot
+python3 bot.py
+</pre>
+</p>
+</details>
+
+<hr>
 
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
-* [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/AFxSU)
+* [![Joel-TGX](https://img.shields.io/static/v1?label=Jᴏᴇʟ+ᠰ+TɢX&message=Github&color=critical)](https://github.com/Joelkb)
+* [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/creatorbeatz)
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
@@ -157,7 +163,7 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 ## Note 🏷️
  - <b>Importing this repo instead of forking is strictly prohibited 🚫 Kindly fork and edit as your wish (Must Give Credits for devs) 🙃</b>
  - <b>If you find any bugs or errors, report it to the developer.</b>
-* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/AFxSU)
+* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/creatorbeatz)
 
 [Note To A So Called Dev](https://telegram.dog/subin_works/203): 
 
@@ -172,4 +178,4 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 ## Inspiration
 This is an attempt to create a clone of a BOAT made out of [banana trees 🌳](https://telegram.dog/GetTGLink/4187)
 
-[![For Vaza](https://telegra.ph/file/b652d4bec083139077fad.jpg)](https://telegra.ph/file/98342dc186fd7484cba91.mp4 "Oru Kootam Vazhakalk samarpikkunnu")
+[![For Vaza](https://telegra.ph/file/e743b0c8a04252774bac2.jpg)](https://telegra.ph/file/98342dc186fd7484cba91.mp4 "Oru Kootam Vazhakalk samarpikkunnu")
