@@ -9,12 +9,12 @@
 </p>
 
 [![Stars](https://img.shields.io/github/stars/RashmikaBot?style=flat-square&color=yellow)](https://github.com/MyBotzz/RashmikaBot)
-[![Forks](https://img.shields.io/github/forks/Joelkb/DQ-The-File-Donor?style=flat-square&color=orange)](https://github.com/MyBotzz/RashmikaBot)
-[![Size](https://img.shields.io/github/repo-size/Joelkb/DQ-The-File-Donor?style=flat-square&color=green)](https://github.com/MyBotzz/RashmikaBot)   
+[![Forks](https://img.shields.io/github/forks/MyBotzz/RashmikaBot?style=flat-square&color=orange)](https://github.com/MyBotzz/RashmikaBot)
+[![Size](https://img.shields.io/github/repo-size/MyBotzz/RashmikaBot?style=flat-square&color=green)](https://github.com/MyBotzz/RashmikaBot)   
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/MyBotzz/RashmikaBot)   
-[![Contributors](https://img.shields.io/github/contributors/Joelkb/DQ-The-File-Donor?style=flat-square&color=green)](https://github.com/MyBotzz/RashmikaBot)
+[![Contributors](https://img.shields.io/github/contributors/MyBotzz/RashmikaBot?style=flat-square&color=green)](https://github.com/MyBotzz/RashmikaBot)
 [![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/MyBotzz/RashmikaBot/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/Joelkb/DQ-The-File-Donor.svg)](https://stars.medv.io/MyBotzz/RashmikaBot)
+[![Sparkline](https://stars.medv.io/MyBotzz/RashmikaBot.svg)](https://stars.medv.io/MyBotzz/RashmikaBot)
 
 ## Features
 - [x] IMDB Template Set
@@ -131,7 +131,7 @@
 <details><summary>Deploy To Koyeb</summary>
 <b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/MyBotzz/RashmikaBot&branch=koyeb&name=dqthefiledonor)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/MyBotzz/RashmikaBot&branch=koyeb&name=therashimikabot)
 </details>
 <details><summary>Deploy To VPS</summary>
 <p>
