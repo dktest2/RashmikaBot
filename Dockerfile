@@ -17,12 +17,3 @@ COPY app.py app.py
 EXPOSE 5000
 RUN chmod +x /app/start.sh
 ENTRYPOINT ["./start.sh"]
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact
